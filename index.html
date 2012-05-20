@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Opauth by uzyn</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Opauth</h1>
+        <p>Multi-provider authentication framework for PHP</p>
+        <p class="view"><a href="https://github.com/uzyn/opauth.org">View the Project on GitHub <small>uzyn/opauth.org</small></a></p>
+        <ul>
+          <li><a href="https://github.com/uzyn/opauth.org/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/uzyn/opauth.org/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/uzyn/opauth.org">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>What is Opauth?</h2>
+
+<p>Inspired by <a href="https://github.com/intridea/omniauth">OmniAuth for Ruby</a>, Opauth provides a standardized method for PHP applications to interface with 3rd-party authentication providers. </p>
+
+<p>Opauth as a framework provides a set of API that allows developers to <a href="https://github.com/uzyn/opauth/wiki/Strategy-Contribution-Guide">create strategies</a> that work in a predictable manner across PHP frameworks and applications.</p>
+
+<p>Opauth is designed works well with other PHP applications &amp; frameworks.<br>
+It is currently supported on <a href="https://github.com/uzyn/opauth/tree/master/example">vanilla (plain) PHP applications</a> <em>(of course)</em>, <a href="https://github.com/uzyn/cakephp-opauth">CakePHP</a>, <a href="https://github.com/kahwee/yii-opauth">Yii Framework</a> and more to come.<br>
+If your PHP framework of choice is not yet listed, you can still use Opauth like you would a normal PHP component (class).</p>
+
+<h2>Quick start</h2>
+
+<ol>
+<li><p>Set <code>DocumentRoot</code> of your web server to <code>example/</code>.<br>
+(Opauth can be instantiated in your own PHP app, but we will leave that out of this quick start guide)</p></li>
+<li><p>Configure Opauth<br><code>cp example/opauth.conf.php.default example/opauth.conf.php</code><br>
+and make the necessary changes.</p></li>
+<li><p>Install some <a href="https://github.com/uzyn/opauth/wiki/List-of-strategies">Opauth strategies</a>.<br>
+We recommend that you start with <a href="https://github.com/uzyn/opauth-facebook">Opauth-Facebook</a></p></li>
+<li><p>Send user to <code>http://path_to_opauth/facebook</code> to authenticate.</p></li>
+</ol><p>Check out <a href="https://github.com/uzyn/opauth/wiki">the wiki</a> for more details &amp; documentations.</p>
+
+<h2>Available strategies</h2>
+
+<p>Provider-specific:</p>
+
+<table>
+<tr>
+<th>Strategy</th>
+    <th>Info</th>
+    <th>Download</th>
+</tr>
+<tr>
+<td>Facebook</td>
+    <td><a href="https://github.com/uzyn/opauth-facebook">uzyn/opauth-facebook</a></td>
+    <td>
+        <a href="https://github.com/uzyn/opauth-facebook/zipball/master">ZIP</a> / 
+        <a href="https://github.com/uzyn/opauth-facebook/tarball/master">TAR</a>
+    </td>
+</tr>
+<tr>
+<td>Google</td>
+    <td><a href="https://github.com/uzyn/opauth-google">uzyn/opauth-google</a></td>
+    <td>
+        <a href="https://github.com/uzyn/opauth-google/zipball/master">ZIP</a> / 
+        <a href="https://github.com/uzyn/opauth-google/tarball/master">TAR</a>
+    </td>
+</tr>
+<tr>
+<td>Twitter</td>
+    <td><a href="https://github.com/uzyn/opauth-twitter">uzyn/opauth-twitter</a></td>
+    <td>
+        <a href="https://github.com/uzyn/opauth-twitter/zipball/master">ZIP</a> / 
+        <a href="https://github.com/uzyn/opauth-twitter/tarball/master">TAR</a>
+    </td>
+</tr>
+</table><p>Generic:</p>
+
+<ul>
+<li><a href="https://github.com/uzyn/opauth-oauth">OAuth</a></li>
+</ul><h2>Issues &amp; questions</h2>
+
+<ul>
+<li>Issues: <a href="https://github.com/uzyn/opauth/issues">Github Issues</a><br>
+</li>
+<li>Twitter: <a href="http://twitter.com/uzyn">@uzyn</a><br>
+</li>
+<li>Email me: <a href="mailto:chua@uzyn.com">chua@uzyn.com</a><br>
+</li>
+<li>IRC: <strong>#opauth</strong> on <a href="http://webchat.freenode.net/?channels=opauth&amp;uio=d4">Freenode</a>
+</li>
+</ul><h2>License</h2>
+
+<p>The MIT License<br>
+Copyright © 2012 U-Zyn Chua (<a href="http://uzyn.com">http://uzyn.com</a>)</p>
+
+<p>U-Zyn Chua (<a href="https://github.com/uzyn" class="user-mention">@uzyn</a>) is a Principal Consultant at <a href="http://gladlycode.com">gladlyCode</a>, a premier PHP web development firm.<br>
+If you need consultation in web technologies and services, feel free to <a href="mailto:we@gladlycode.com">talk to us</a>.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/uzyn">uzyn</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-31914008-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
