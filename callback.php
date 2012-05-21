@@ -1,19 +1,5 @@
 <?php
 /**
- * Callback for Opauth
- * 
- * This file (callback.php) provides an example on how to properly receive auth response of Opauth.
- * 
- * Basic steps:
- * 1. Fetch auth response based on callback transport parameter in config.
- * 2. Validate auth response
- * 3. Once auth response is validated, your PHP app should then work on the auth response 
- *    (eg. registers or logs user in to your site, save auth data onto database, etc.)
- * 
- */
-
-
-/**
  * Define paths
  */
 define('OPAUTH_EXAMPLE', dirname(__FILE__).'/auth/');
@@ -88,9 +74,11 @@ else{
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Opauth – Multi-provider authentication framework for PHP</title>
 
-    <link rel="stylesheet" href="stylesheets/opauth.css">
+	<link rel="stylesheet" href="stylesheets/opauth.css">
+	<link rel="image_src" href="images/square.png" />
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+	<meta property="og:image" content="images/square.png" />
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
