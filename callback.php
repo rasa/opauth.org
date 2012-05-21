@@ -94,6 +94,8 @@ else{
 <?php if (is_null($error)): ?>
 <?php $auth = $response['auth']; ?>
 	<h2>Authentication sucessful</h2>
+	
+	<p>Authentication is successful and auth response is <span style="color: green; font-weight: bold;">validated</span>.</p>
 
 	<p>Returned auth response:</p>
 	
