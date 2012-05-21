@@ -76,11 +76,8 @@ else{
 		$error = '<strong style="color: red;">Invalid auth response: </strong>'.$reason.".<br>\n";
 	}
 	else{
-		//$error = '<strong style="color: green;">OK: </strong>Auth response is validated.'."<br>\n";
-
-		/**
-		 * It's all good. Go ahead with your application-specific authentication logic
-		 */
+		// It's all good
+		$error = null;
 	}
 }
 ?>
@@ -106,13 +103,76 @@ else{
         <p>Multi-provider authentication framework for PHP</p>
       </header>
       <section>
-			<h2>Authentication sucessful</h2>
-			
-			<p>Returned auth response:</p>
-			
-			<pre><code>
-				<?php print_r($response); ?>
-			</code></pre>
+<?php if (is_null($error)): ?>
+<?php $auth = $response['auth']; ?>
+	<h2>Authentication sucessful</h2>
+
+	<p>Returned auth response:</p>
+	
+	<table>
+	<tr>
+		<th>Key</th>
+		<th>Value</th>
+	</tr>
+	<tr>
+		<th>Provider</th>
+	    <td><?php echo $auth['provider']; ?></td>
+	</tr>
+	<tr>
+		<th>User ID (UID)</th>
+	    <td><?php echo $auth['uid']; ?></td>
+	</tr>
+	<tr>
+		<th>User info</th>
+	    <td>
+			<ul>
+			<?php foreach ($auth['info'] as $key=>$value): ?>
+				<?php if (is_array($value)) $value = print_r($value, true); ?>
+				<li><?php echo "<strong>$key</strong>: $value"; ?></li>
+			<?php endforeach; ?>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th>Credentials</th>
+	    <td>
+			<ul>
+			<?php foreach ($auth['credentials'] as $key=>$value): ?>
+				<?php if (is_array($value)) $value = print_r($value, true); ?>
+				<li><?php echo "<strong>$key</strong>: $value"; ?></li>
+			<?php endforeach; ?>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th>Timestamp</th>
+	    <td><?php echo $response['timestamp']; ?></td>
+	</tr>
+	<tr>
+		<th>Signature</th>
+	    <td><?php echo $response['signature']; ?></td>
+	</tr>
+	<tr>
+		<th>Raw</th>
+	    <td>
+  			<textarea><?php print_r($auth['raw']); ?></textarea>
+	    </td>
+	</tr>
+	</table>
+
+	<pre><code>
+	<?php print_r($response); ?>
+	</code></pre>
+<?php else: ?>
+	<h2>Authentication error</h2>
+	
+	<p>Returned auth response:</p>
+
+	<pre><code>
+	<?php print_r($response); ?>
+	</code></pre>
+<?php endif; ?>
+
       </section>
     </div>
     <footer>
