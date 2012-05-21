@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(?!(opauth\.org)).*$ [NC]
+RewriteRule ^(.*)$ http://opauth.org/$1 [R=301,L]
