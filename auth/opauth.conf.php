@@ -29,7 +29,7 @@ $config = array(
 /**
  * A random string used for signing of $auth response.
  */
-	'security_salt' => 'LDFmiilYf8Fyw5W10rx4W1KsVrieQCnpBzzpTBWA5vJidQKDx8pMJbmw28R1C4m',
+	'security_salt' => 'xm6v0J6w36aCodSyKOJdPoin7BqDyYNKt0JDJl0EJdBPffzzUelxym0SsvvlPh3',
 	
 /**
  * Higher value, better security, slower hashing;
