@@ -102,16 +102,8 @@ else{
   <body>
     <div class="wrapper">
       <header>
-        <h1>Opauth</h1>
+        <h1><a href="/">Opauth</a></h1>
         <p>Multi-provider authentication framework for PHP</p>
-<!--
-        <p class="view"><a href="https://github.com/uzyn/opauth.org">View the Project on GitHub <small>uzyn/opauth.org</small></a></p>
-        <ul>
-          <li><a href="https://github.com/uzyn/opauth.org/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/uzyn/opauth.org/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/uzyn/opauth.org">View On <strong>GitHub</strong></a></li>
-        </ul>
--->
       </header>
       <section>
 			<h2>Authentication sucessful</h2>
