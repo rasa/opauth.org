@@ -159,9 +159,20 @@ else{
 	    </td>
 	</tr>
 	</table>
+
+	<h2>Raw response</h2>
+
+	<a href="#" onclick="document.getElementById('actual-response').style.display = 'block'; this.style.display = 'none'; return false;">View</a>
+	<div id="actual-response" style="display: none;">
+		<pre><code>
+		<?php print_r($response); ?>
+		</code></pre>
+	</div>
 	
 <?php else: ?>
 	<h2>Authentication error</h2>
+	
+	<p><?php echo $error; ?></p>
 	
 	<p>Returned auth response:</p>
 
@@ -170,14 +181,6 @@ else{
 	</code></pre>
 <?php endif; ?>
 
-<h2>Raw response</h2>
-
-<a href="#" onclick="document.getElementById('actual-response').style.display = 'block'; this.style.display = 'none'; return false;">View</a>
-<div id="actual-response" style="display: none;">
-	<pre><code>
-	<?php print_r($response); ?>
-	</code></pre>
-</div>
       </section>
     </div>
     <footer>
