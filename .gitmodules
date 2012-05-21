@@ -1,0 +1,6 @@
+[submodule "Opauth/Core"]
+	path = Opauth/Core
+	url = git://github.com/uzyn/opauth.git
+[submodule "Opauth/Strategy/Facebook"]
+	path = Opauth/Strategy/Facebook
+	url = git://github.com/uzyn/opauth-facebook.git
