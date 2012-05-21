@@ -16,7 +16,7 @@ $config = array(
 /**
  * Callback URL: redirected to after authentication, successful or otherwise
  */
-	'callback_url' => '{path}callback.php',
+	'callback_url' => '/callback.php',
 
 /**
  * Callback transport, for sending of $auth response
