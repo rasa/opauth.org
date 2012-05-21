@@ -109,7 +109,7 @@ else{
 
 	<p>Returned auth response:</p>
 	
-	<table>
+	<table class="auth-response">
 	<tr>
 		<th>Key</th>
 		<th>Value</th>
@@ -119,7 +119,7 @@ else{
 	    <td><?php echo $auth['provider']; ?></td>
 	</tr>
 	<tr>
-		<th>User ID (UID)</th>
+		<th>User&nbsp;ID</th>
 	    <td><?php echo $auth['uid']; ?></td>
 	</tr>
 	<tr>
@@ -159,10 +159,7 @@ else{
 	    </td>
 	</tr>
 	</table>
-
-	<pre><code>
-	<?php print_r($response); ?>
-	</code></pre>
+	
 <?php else: ?>
 	<h2>Authentication error</h2>
 	
@@ -173,6 +170,14 @@ else{
 	</code></pre>
 <?php endif; ?>
 
+<h2>Raw response</h2>
+
+<a href="#" onclick="document.getElementById('actual-response').style.display = 'block'; this.style.display = 'none'; return false;">View</a>
+<div id="actual-response" style="display: none;">
+	<pre><code>
+	<?php print_r($response); ?>
+	</code></pre>
+</div>
       </section>
     </div>
     <footer>
