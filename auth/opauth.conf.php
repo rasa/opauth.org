@@ -71,5 +71,15 @@ $config = array(
 			'scope' => 'user_website'
 		),
 		
+		'Twitter' => array(
+			'key' => 'bc26uK84nZOh3NGakVdsuQ',
+			'secret' => 'OjpNGqXtmTGvpqB1HmOcsEBMug0EsmcnDDnXL3RY',
+		),
+		
+		'Google' => array(
+			'client_id' => '790499350980.apps.googleusercontent.com',
+			'client_secret' => '7H6oDnMvYPxMDjWgU3j_0p6A'
+		),
+		
 	),
 );
