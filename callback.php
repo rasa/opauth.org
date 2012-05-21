@@ -174,9 +174,9 @@ else{
       </section>
     </div>
     <footer>
-      <p>Copyright © 2012 <a href="http://uzyn.com">U-Zyn Chua</a>. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	   Opauth is released under the MIT License.</p>
-      <p>Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+      <p class="left">Copyright © 2012 <a href="http://uzyn.com">U-Zyn Chua</a>. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <p class="right">Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+	  <p class="center">Opauth is released under the MIT License.</p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
               <script type="text/javascript">
