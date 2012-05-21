@@ -33,31 +33,36 @@
 		</p>
 		
 		<div class="highlight">
-			Opauth enables PHP applications to do <em>user authentication</em> with ease.
+			<p>Opauth enables PHP applications to do <em>user authentication</em> with ease.</p>
+			
+			<p class="buttons">
+				<a href="#" class="button">Demo</a>
+				<a href="#quickstart" class="button">Quick start</a>
+			</p>		
 		</div>
-		
+	
         <h2>What is Opauth?</h2>
 
-<p>Inspired by <a href="https://github.com/intridea/omniauth">OmniAuth for Ruby</a>, Opauth provides a standardized method for PHP applications to interface with 3rd-party authentication providers. </p>
+<p>Inspired by <a href="https://github.com/intridea/omniauth">OmniAuth for Ruby</a>, Opauth provides a standardized method for PHP applications to interface with authentication providers. </p>
 
 <p>Opauth works well with other PHP applications &amp; frameworks.<br>
 It is currently supported on <a href="https://github.com/uzyn/opauth/tree/master/example">vanilla (plain) PHP applications</a> <em>(of course)</em>, <a href="https://github.com/uzyn/cakephp-opauth">CakePHP</a>, <a href="https://github.com/kahwee/yii-opauth">Yii Framework</a> and more to come.</p>
 
 <p>Opauth as a framework provides a set of API that allows developers to <a href="https://github.com/uzyn/opauth/wiki/Strategy-Contribution-Guide">create strategies</a> that work in a predictable manner across PHP frameworks and applications.</p>
 
-<h2>Quick start</h2>
+<h2><a name="quickstart"></a>Quick start</h2>
 
 <ol>
 <li><p>Set <code>DocumentRoot</code> of your web server to <code>example/</code>.<br>
 (Opauth can be instantiated in your own PHP app, but we will leave that out of this quick start guide)</p></li>
 <li><p>Configure Opauth<br><code>cp example/opauth.conf.php.default example/opauth.conf.php</code><br>
 and make the necessary changes.</p></li>
-<li><p>Install some <a href="https://github.com/uzyn/opauth/wiki/List-of-strategies">Opauth strategies</a>.<br>
-We recommend that you start with <a href="https://github.com/uzyn/opauth-facebook">Opauth-Facebook</a></p></li>
-<li><p>Send user to <code>http://path_to_opauth/facebook</code> to authenticate.</p></li>
+<li><p>Install some <a href="#strategies">Opauth strategies</a>.<br>
+We recommend that you start with <strong>Facebook</strong></p></li>
+<li><p>Send user to <code>http://path_to_opauth/<strong>facebook</strong></code> to authenticate.</p></li>
 </ol><p>Check out <a href="https://github.com/uzyn/opauth/wiki">the wiki</a> for more details &amp; documentations.</p>
 
-<h2>Available strategies</h2>
+<h2><a name="strategies"></a>Available strategies</h2>
 
 <p>Provider-specific:</p>
 
@@ -91,11 +96,13 @@ We recommend that you start with <a href="https://github.com/uzyn/opauth-faceboo
         <a href="https://github.com/uzyn/opauth-twitter/tarball/master">TAR</a>
     </td>
 </tr>
-</table><p>Generic:</p>
+</table>
 
-<ul>
-<li><a href="https://github.com/uzyn/opauth-oauth">OAuth</a></li>
-</ul><h2>Issues &amp; questions</h2>
+<p>Generic strategy: <a href="https://github.com/uzyn/opauth-oauth">OAuth</a></p>
+
+<p>Notify us if you have developed an Opauth strategy and would like it to be listed.</p>
+
+<h2>Issues &amp; questions</h2>
 
 <ul>
 <li>Issues: <a href="https://github.com/uzyn/opauth/issues">Github Issues</a><br>
