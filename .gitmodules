@@ -1,6 +1,0 @@
-[submodule "auth"]
-	path = auth
-	url = git://github.com/uzyn/opauth.git
-[submodule "strategies/Facebook"]
-	path = strategies/Facebook
-	url = git://github.com/uzyn/opauth-facebook.git
