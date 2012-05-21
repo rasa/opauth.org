@@ -91,23 +91,35 @@ header{
 	vertical-align: baseline;
 	cursor: pointer;
 	text-align: center;
+	
 	padding: .5em 30px;
 	text-shadow: 0 1px 1px rgba(0,0,0,.3);
-	-webkit-border-radius: .5em; 
-	-moz-border-radius: .5em;
-	border-radius: .5em;
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px;
+	border-radius: 10px;
 	
 	border: 1px solid #6971E9;
 	
-	.gradient(#000, #3E4776, #525EA0);
+	.gradient(#3E4776, #3E4776, #525EA0);
 	color: #fff;
 	font-size: 18px;
 	margin: 0 20px;
+	
+	&:hover{
+		border-color: #fff;
+		.gradient(#3E4776, #3E4776, #3E4776);
+	}
 }
-.button:hover {
-	text-decoration: none;
-}
-.button:active {
-	position: relative;
-	top: 1px;
+
+.tryme{
+	.button;
+	
+	font-size: 13px;
+	padding: 0 10px;
+	margin: 0;
+	background-color: #fff;
+	
+	&:hover{
+		border-color: #000;
+	}
 }
