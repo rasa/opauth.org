@@ -17,7 +17,7 @@
  * Define paths
  */
 define('OPAUTH_EXAMPLE', dirname(__FILE__).'/');
-define('OPAUTH_LIB', dirname(OPAUTH_EXAMPLE).'/lib/Opauth/');
+define('OPAUTH_LIB', dirname(OPAUTH_EXAMPLE).'/Opauth/Core/lib/Opauth/');
 
 /**
 * Load config
