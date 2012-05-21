@@ -78,7 +78,7 @@ else{
 	<link rel="image_src" href="images/square.png" />
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-	<meta property="og:image" content="images/square.png" />
+	<meta property="og:image" content="http://opauth.org/images/square.png" />
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
