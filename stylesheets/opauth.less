@@ -7,6 +7,22 @@
 	letter-spacing: 1px;
 }
 
+.gradient(@color, @start, @stop) {
+  background: @color;
+  background: -webkit-gradient(linear,
+                               left bottom,
+                               left top,
+                               color-stop(0, @start),
+                               color-stop(1, @stop));
+  background: -ms-linear-gradient(bottom,
+                                  @start,
+                                  @stop);
+  background: -moz-linear-gradient(center bottom,
+                                   @start 0%,
+                                   @stop 100%);
+}
+
+
 body{
 	padding-top: 20px;
 }
@@ -16,7 +32,7 @@ body{
 }
 
 .highlight{
-	padding: 40px 0;
+	padding: 30px 0 20px;
 	background: #3A3C42;
 	color: #f8f8f2;
 	margin: 0 -20px 20px;
@@ -30,6 +46,10 @@ body{
 		color: #F7CC32;
 		padding: 0 4px;
 	}
+	
+	.buttons{
+		margin-top: 30px;
+	}
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -37,9 +57,16 @@ h1, h2, h3, h4, h5, h6{
 	font-weight: normal;
 }
 
-section h2{
-	color: #000;
-	font-size: 28px;
+section{
+	p{
+		margin-bottom: 10px;
+	}
+	
+	h2{
+		color: #000;
+		font-size: 28px;
+		margin-top: 48px;
+	}
 }
 
 header{
@@ -56,4 +83,31 @@ header{
 		line-height: 28px;
 		font-size: 14px;
 	}
+}
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	cursor: pointer;
+	text-align: center;
+	padding: .5em 30px;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	
+	border: 1px solid #6971E9;
+	
+	.gradient(#000, #3E4776, #525EA0);
+	color: #fff;
+	font-size: 18px;
+	margin: 0 20px;
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
 }
