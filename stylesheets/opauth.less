@@ -116,17 +116,28 @@ header{
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 	
-	border: 1px solid #6971E9;
+	border: 1px solid #999;
 	
-	.gradient(#3E4776, #3E4776, #525EA0);
+	.gradient(#475566, #475566, #505864);
 	color: #fff;
 	font-size: 18px;
-	margin: 0 20px;
+	margin: 0 14px;
 	
 	&:hover{
 		border-color: #fff;
-		.gradient(#3E4776, #3E4776, #3E4776);
+		.gradient(#505864, #505864, #475566);
 		text-decoration: none;
+	}
+	
+	&.primary{
+		.gradient(#3E4776, #3E4776, #525EA0);
+		border: 1px solid #6971E9;
+		
+		&:hover{
+			border-color: #fff;
+			.gradient(#3E4776, #3E4776, #3E4776);
+			text-decoration: none;
+		}
 	}
 }
 
