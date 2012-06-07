@@ -10,3 +10,6 @@
 [submodule "Opauth/Strategy/Google"]
 	path = Opauth/Strategy/Google
 	url = git://github.com/uzyn/opauth-google.git
+[submodule "Opauth/Strategy/Instagram"]
+	path = Opauth/Strategy/Instagram
+	url = git://github.com/uzyn/opauth-instagram.git
