@@ -81,5 +81,10 @@ $config = array(
 			'client_secret' => '7H6oDnMvYPxMDjWgU3j_0p6A'
 		),
 		
+		'Instagram' => array(
+		  'client_id' => '425005b0bcce4680b91798001c8e8fd6',
+		  'client_secret' => 'c66f97ecbf0e40e3a65bcdd81f786872',
+		),
+		
 	),
 );
