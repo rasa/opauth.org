@@ -86,5 +86,7 @@ $config = array(
 		  'client_secret' => 'c66f97ecbf0e40e3a65bcdd81f786872',
 		),
 		
+		'OpenID' => array()
+		
 	),
 );
