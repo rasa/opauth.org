@@ -126,12 +126,14 @@ else{
 	<tr>
 		<th>Credentials</th>
 	    <td>
+			<?php if (count($auth['credentials']) > 0): ?>
 			<ul>
 			<?php foreach ($auth['credentials'] as $key=>$value): ?>
 				<?php if (is_array($value)) $value = print_r($value, true); ?>
 				<li><?php echo "<strong>$key</strong>: $value"; ?></li>
 			<?php endforeach; ?>
 			</ul>
+			<?php endif; ?>
 		</td>
 	</tr>
 	<tr>
