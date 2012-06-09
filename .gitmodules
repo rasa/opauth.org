@@ -16,3 +16,6 @@
 [submodule "Opauth/Strategy/OpenID"]
 	path = Opauth/Strategy/OpenID
 	url = git://github.com/uzyn/opauth-openid.git
+[submodule "Opauth/Strategy/LinkedIn"]
+	path = Opauth/Strategy/LinkedIn
+	url = git://github.com/uzyn/opauth-linkedin.git
