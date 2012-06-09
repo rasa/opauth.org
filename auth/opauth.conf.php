@@ -86,7 +86,12 @@ $config = array(
 		  'client_secret' => 'c66f97ecbf0e40e3a65bcdd81f786872',
 		),
 		
-		'OpenID' => array()
+		'OpenID' => array(),
+		
+		'LinkedIn' => array(
+			'api_key' => 'ky8vk69mmyqx',
+			'secret_key' => 'z9RbOxWX640gfiBA'
+		),
 		
 	),
 );
