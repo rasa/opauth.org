@@ -1,50 +1,19 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Opauth – Multi-provider authentication framework for PHP</title>
+<?php require('includes/head.php'); ?>
+<p class="center">
+	<img src="images/opauth-diagram.png" alt="Opauth diagram">
+</p>
 
-    <link rel="stylesheet" href="stylesheets/opauth.css">
-	<link rel="image_src" href="images/square.png" />
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-	<meta property="og:image" content="http://opauth.org/images/square.png" />
+<div class="highlight">
+	<p>Opauth enables PHP applications to do <em>user authentication</em> with ease.</p>
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="/">Opauth</a></h1>
-        <p>Multi-provider authentication framework for PHP</p>
-<!--
-        <p class="view"><a href="https://github.com/uzyn/opauth.org">View the Project on GitHub <small>uzyn/opauth.org</small></a></p>
-        <ul>
-          <li><a href="https://github.com/uzyn/opauth.org/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/uzyn/opauth.org/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/uzyn/opauth.org">View On <strong>GitHub</strong></a></li>
-        </ul>
--->
-      </header>
-      <section>
-		<p class="center">
-			<img src="images/opauth-diagram.png" alt="Opauth diagram">
-		</p>
-		
-		<div class="highlight">
-			<p>Opauth enables PHP applications to do <em>user authentication</em> with ease.</p>
-			
-			<p class="buttons">
-				<a href="#demo" class="button primary">Demo</a>
-				<a href="#quickstart" class="button">How to use</a>
-				<a href="https://github.com/uzyn/opauth/wiki" class="button" target="_blank">Documentations</a>
-			</p>		
-		</div>
-	
-        <h2>What is Opauth?</h2>
+	<p class="buttons">
+	<a href="#demo" class="button primary">Demo</a>
+	<a href="#quickstart" class="button">How to use</a>
+	<a href="https://github.com/uzyn/opauth/wiki" class="button" target="_blank">Documentations</a>
+	</p>		
+</div>
+
+<h2>What is Opauth?</h2>
 
 <p>Inspired by <a href="https://github.com/intridea/omniauth">OmniAuth for Ruby</a>, Opauth provides a standardized method for PHP applications to interface with authentication providers. </p>
 
@@ -182,26 +151,4 @@ We recommend that you start with <strong>Facebook</strong></p></li>
 
 <p>Used Opauth in your project? Tell us! We'll provide a link to your site.</p>
 
-      </section>
-    </div>
-    <footer>
-      <p class="left">Copyright © 2012 <a href="http://uzyn.com">U-Zyn Chua</a>. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
-      <p class="right">Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-	  <p class="center">Opauth is released under the MIT License.</p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-31914008-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-<a href="https://github.com/uzyn/opauth"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
-
-  </body>
-</html>
+<?php require('includes/foot.php'); ?>
