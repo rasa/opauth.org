@@ -8,7 +8,7 @@
 
 	<p class="buttons">
 	<a href="#demo" class="button primary">Demo</a>
-	<a href="#quickstart" class="button">How to use</a>
+	<a href="download.php" class="button primary">Download</a>
 	<a href="https://github.com/uzyn/opauth/wiki" class="button" target="_blank">Documentations</a>
 	</p>		
 </div>
@@ -43,25 +43,13 @@
 <h2><a name="strategies"></a><a name="demo"></a>Available strategies</h2>
 <?php require('includes/strategies.php'); ?>
 
-<h2><a name="quickstart"></a>Quick start</h2>
-
-<ol>
-	<li><a href="https://github.com/uzyn/opauth/zipball/master">Download</a> or <code><a href="https://github.com/uzyn/opauth">git clone</a></code> Opauth.</li>
-<li><p>Set <code>DocumentRoot</code> of your web server to <code>example/</code>.<br>
-(Opauth can be instantiated in your own PHP app, but we will leave that out of this quick start guide)</p></li>
-<li><p>Configure Opauth<br><code>cp example/opauth.conf.php.default example/opauth.conf.php</code><br>
-and make the necessary changes.</p></li>
-<li><p>Install some <a href="#strategies">Opauth strategies</a>.<br>
-We recommend that you start with <strong>Facebook</strong></p></li>
-<li><p>Send user to <code>http://path_to_opauth/<strong>facebook</strong></code> to authenticate.</p></li>
-</ol><p>Check out <a href="https://github.com/uzyn/opauth/wiki">the wiki</a> for more details &amp; documentations.</p>
 
 <h2>Issues &amp; questions</h2>
 
 <ul>
-<li>Issues: <a href="https://github.com/uzyn/opauth/issues">Github Issues</a><br>
+<li>Discussion group: <a href="https://groups.google.com/group/opauth">Google Groups</a><br>Feel free to post any questions to the discussion group.<br>
 </li>
-<li>Discussion group: <a href="https://groups.google.com/group/opauth">Google Groups</a><br>
+<li>Issues: <a href="https://github.com/uzyn/opauth/issues">Github Issues</a><br>
 </li>
 <li>Twitter: <a href="http://twitter.com/uzyn">@uzyn</a><br>
 </li>
