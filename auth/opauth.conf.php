@@ -93,5 +93,10 @@ $config = array(
 			'secret_key' => 'z9RbOxWX640gfiBA'
 		),
 		
+		'GitHub' => array(
+			'client_id' => '3d049cd04eb813312c8e',
+			'client_secret' => '5327ce15c3f89a897dc4dad25979b0aa9606127c'
+		),
+		
 	),
 );
