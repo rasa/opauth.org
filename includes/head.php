@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Opauth – Multi-provider authentication framework for PHP</title>
 
-	<link rel="stylesheet" href="stylesheets/opauth.css">
+	<link rel="stylesheet" href="stylesheets/opauth.css?r=2">
 	<link rel="image_src" href="images/square.png" />
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
