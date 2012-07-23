@@ -95,6 +95,7 @@ else{
 	    <td>
 			<ul>
 			<?php foreach ($auth['info'] as $key=>$value): ?>
+				<?php if ($key == 'image') $value = '<img src="'.$value.'" class="auth-response-image" title="'.$value.'" alt="User image">'; ?>
 				<?php if (is_array($value)) $value = print_r($value, true); ?>
 				<li><?php echo "<strong>$key</strong>: $value"; ?></li>
 			<?php endforeach; ?>
