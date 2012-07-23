@@ -19,3 +19,6 @@
 [submodule "Opauth/Strategy/LinkedIn"]
 	path = Opauth/Strategy/LinkedIn
 	url = git://github.com/uzyn/opauth-linkedin.git
+[submodule "Opauth/Strategy/GitHub"]
+	path = Opauth/Strategy/GitHub
+	url = git://github.com/uzyn/opauth-github.git
