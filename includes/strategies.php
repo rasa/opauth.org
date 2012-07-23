@@ -36,6 +36,15 @@
 	<td><a href="auth/twitter" class="tryme">Try me!</a></td>
 </tr>
 <tr>
+<td><a name="github"></a><img src="images/favicons/github.com.png"> GitHub</td>
+    <td><a href="https://github.com/uzyn/opauth-github">uzyn/opauth-github</a></td>
+    <td>
+        <a href="https://github.com/uzyn/opauth-github/zipball/master">ZIP</a> / 
+        <a href="https://github.com/uzyn/opauth-github/tarball/master">TAR</a>
+    </td>
+	<td><a href="auth/github" class="tryme">Try me!</a></td>
+</tr>
+<tr>
 <td><img src="images/favicons/instagram.com.png"> Instagram</td>
     <td><a href="https://github.com/muhdazrain/opauth-instagram">muhdazrain/opauth-instagram</a></td>
     <td>
