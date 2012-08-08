@@ -63,6 +63,15 @@
 	<td><a href="auth/linkedin" class="tryme">Try me!</a></td>
 </tr>
 <tr>
+<td><img src="images/favicons/live.com.png"> (Windows) Live</td>
+    <td><a href="https://github.com/uzyn/opauth-live">uzyn/opauth-live</a></td>
+    <td>
+        <a href="https://github.com/uzyn/opauth-live/zipball/master">ZIP</a> / 
+        <a href="https://github.com/uzyn/opauth-live/tarball/master">TAR</a>
+    </td>
+	<td><a href="auth/live" class="tryme">Try me!</a></td>
+</tr>
+<tr>
 <td><img src="images/favicons/openid.net.png"> OpenID</td>
     <td><a href="https://github.com/uzyn/opauth-openid">uzyn/opauth-openid</a></td>
     <td>

@@ -98,5 +98,10 @@ $config = array(
 			'client_secret' => '5327ce15c3f89a897dc4dad25979b0aa9606127c'
 		),
 		
+		'Live' => array(
+			'client_id' => '00000000400D374A',
+			'client_secret' => 'Ow9ToGTibN-xNSLetKMpWiSuuw2AtkHn',
+		),
+		
 	),
 );
