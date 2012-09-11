@@ -103,5 +103,10 @@ $config = array(
 			'client_secret' => 'Ow9ToGTibN-xNSLetKMpWiSuuw2AtkHn',
 		),
 		
+		'Flickr' => array(
+			'key' => '0155ef21440d439a3ef22ef73aed2d6c',
+			'secret' => '2d9480b94507bc07'
+		),
+		
 	),
 );
