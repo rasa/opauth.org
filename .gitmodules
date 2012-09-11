@@ -27,4 +27,4 @@
 	url = git://github.com/uzyn/opauth-live.git
 [submodule "Opauth/Strategy/Flickr"]
 	path = Opauth/Strategy/Flickr
-	url = git://github.com/pocket7878/opauth-flickr.git
+	url = git://github.com/uzyn/opauth-flickr.git
