@@ -36,6 +36,24 @@
 	<td><a href="auth/twitter" class="tryme">Try me!</a></td>
 </tr>
 <tr>
+<td><img src="images/favicons/flickr.com.png"> Flickr</td>
+    <td><a href="https://github.com/pocket7878/opauth-flickr">pocket7878/opauth-flickr</a></td>
+    <td>
+        <a href="https://github.com/pocket7878/opauth-flickr/zipball/master">ZIP</a> / 
+        <a href="https://github.com/pocket7878/opauth-flickr/tarball/master">TAR</a>
+    </td>
+	<td><a href="auth/flickr" class="tryme">Try me!</a></td>
+</tr>
+<tr>
+<td><img src="images/favicons/foursquare.com.png" width="16" height="16"> Foursquare</td>
+    <td><a href="https://github.com/pocket7878/opauth-foursquare">pocket7878/opauth-foursquare</a></td>
+    <td>
+        <a href="https://github.com/pocket7878/opauth-foursquare/zipball/master">ZIP</a> / 
+        <a href="https://github.com/pocket7878/opauth-foursquare/tarball/master">TAR</a>
+    </td>
+	<td></td>
+</tr>
+<tr>
 <td><a name="github"></a><img src="images/favicons/github.com.png"> GitHub</td>
     <td><a href="https://github.com/uzyn/opauth-github">uzyn/opauth-github</a></td>
     <td>
