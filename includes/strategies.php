@@ -90,15 +90,6 @@
 	<td><a href="auth/live" class="tryme">Try me!</a></td>
 </tr>
 <tr>
-<td><img src="images/favicons/openid.net.png"> OpenID</td>
-    <td><a href="https://github.com/uzyn/opauth-openid">uzyn/opauth-openid</a></td>
-    <td>
-        <a href="https://github.com/uzyn/opauth-openid/zipball/master">ZIP</a> / 
-        <a href="https://github.com/uzyn/opauth-openid/tarball/master">TAR</a>
-    </td>
-	<td><a href="auth/openid" class="tryme">Try me!</a></td>
-</tr>
-<tr>
 <td><img src="images/favicons/mixi.co.jp.png"> mixi</td>
     <td><a href="https://github.com/ritou/opauth-mixi">ritou/opauth-mixi</a></td>
     <td>
@@ -106,6 +97,15 @@
         <a href="https://github.com/ritou/opauth-mixi/tarball/master">TAR</a>
     </td>
 	<td></td>
+</tr>
+<tr>
+<td><img src="images/favicons/openid.net.png"> OpenID</td>
+    <td><a href="https://github.com/uzyn/opauth-openid">uzyn/opauth-openid</a></td>
+    <td>
+        <a href="https://github.com/uzyn/opauth-openid/zipball/master">ZIP</a> / 
+        <a href="https://github.com/uzyn/opauth-openid/tarball/master">TAR</a>
+    </td>
+	<td><a href="auth/openid" class="tryme">Try me!</a></td>
 </tr>
 
 </table>
