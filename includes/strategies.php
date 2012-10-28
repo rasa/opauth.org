@@ -36,6 +36,15 @@
 	<td><a href="auth/twitter" class="tryme">Try me!</a></td>
 </tr>
 <tr>
+<td><img src="images/favicons/bitbucket.com.png" width="16" height="16"> Bitbucket</td>
+    <td><a href="https://github.com/fancyguy/opauth-bitbucket">fancyguy/opauth-bitbucket</a></td>
+    <td>
+        <a href="https://github.com/fancyguy/opauth-bitbucket/zipball/master">ZIP</a> / 
+        <a href="https://github.com/fancyguy/opauth-bitbucket/tarball/master">TAR</a>
+    </td>
+	<td><a href="auth/bitbucket" class="tryme">Try me!</a></td>
+</tr>
+<tr>
 <td><img src="images/favicons/flickr.com.png"> Flickr</td>
     <td><a href="https://github.com/pocket7878/opauth-flickr">pocket7878/opauth-flickr</a></td>
     <td>
