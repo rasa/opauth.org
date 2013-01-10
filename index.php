@@ -34,6 +34,7 @@
 	<li><a href="https://github.com/Onasusweb/PrestaShop-Opauth">PrestaShop</a> <small><em>(maintained by <a href="https://github.com/Onasusweb/">Onasusweb</a>)</em></small></li>
 	<li><a href="https://github.com/icehero/silex-opauth">Silex</a> <small><em>(maintained by <a href="https://github.com/icehero/">icehero</a>)</em></small></li>
 	<li><a href="https://github.com/kahwee/yii-opauth">Yii Framework</a> <small><em>(maintained by <a href="https://github.com/kahwee">kahwee</a>)</em></small></li>
+	<li><a href="https://github.com/lorenzoferrarajr/LfjOpauth">Zend Framework 2</a> <small><em>(maintained by <a href="https://github.com/lorenzoferrarajr">lorenzoferrarajr</a>)</em></small></li>
 	<li>and more to come.</li>
 	</ul>
 </p>
