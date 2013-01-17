@@ -21,20 +21,16 @@
 
 <p>Opauth works well with other PHP applications &amp; frameworks. It is currently supported on:
 	<ul>
-	<li>
-	<a href="https://github.com/uzyn/opauth/tree/master/example">vanilla (plain) PHP applications</a> <small><em>(of course)</em></small>
-	</li>
-	<li>
-	<a href="https://github.com/uzyn/cakephp-opauth">CakePHP</a> <small><em>(maintained by <a href="https://github.com/uzyn">uzyn</a>)</em></small></li>
-	<li>
-	<a href="https://github.com/destinomultimedia/ci_opauth">CodeIgniter</a> <small><em>(maintained by <a href="https://github.com/destinomultimedia">destinomultimedia</a>)</em></small></li>
-	<li>
-	<a href="https://github.com/mcatm/Opauth-Plugin-for-Codeigniter">CodeIgniter</a> <small><em>(maintained by <a href="https://github.com/mcatm">mcatm</a>)</em></small></li>
-	<li><a href="https://github.com/andreoav/fuel-opauth">FuelPHP</a> <small><em>(maintained by <a href="https://github.com/andreoav/">andreoav</a>)</em></small></li>
-	<li><a href="https://github.com/Onasusweb/PrestaShop-Opauth">PrestaShop</a> <small><em>(maintained by <a href="https://github.com/Onasusweb/">Onasusweb</a>)</em></small></li>
-	<li><a href="https://github.com/icehero/silex-opauth">Silex</a> <small><em>(maintained by <a href="https://github.com/icehero/">icehero</a>)</em></small></li>
-	<li><a href="https://github.com/kahwee/yii-opauth">Yii Framework</a> <small><em>(maintained by <a href="https://github.com/kahwee">kahwee</a>)</em></small></li>
-	<li><a href="https://github.com/lorenzoferrarajr/LfjOpauth">Zend Framework 2</a> <small><em>(maintained by <a href="https://github.com/lorenzoferrarajr">lorenzoferrarajr</a>)</em></small></li>
+		<li><a href="https://github.com/uzyn/opauth/tree/master/example">vanilla (plain) PHP applications</a> <small><em>(of course)</em></small></li>
+		<li><a href="https://github.com/uzyn/cakephp-opauth">CakePHP</a> <small><em>(maintained by <a href="https://github.com/uzyn">uzyn</a>)</em></small></li>
+		<li><a href="https://github.com/destinomultimedia/ci_opauth">CodeIgniter</a> <small><em>(maintained by <a href="https://github.com/destinomultimedia">destinomultimedia</a>)</em></small></li>
+		<li><a href="https://github.com/mcatm/Opauth-Plugin-for-Codeigniter">CodeIgniter</a> <small><em>(maintained by <a href="https://github.com/mcatm">mcatm</a>)</em></small></li>
+		<li><a href="https://github.com/andreoav/fuel-opauth">FuelPHP</a> <small><em>(maintained by <a href="https://github.com/andreoav/">andreoav</a>)</em></small></li>
+		<li><a href="https://github.com/FakeHeal/opauth-laravel">Laravel</a> <small><em>(maintained by <a href="https://github.com/FakeHeal/">FakeHeal</a>)</em></small></li>
+		<li><a href="https://github.com/Onasusweb/PrestaShop-Opauth">PrestaShop</a> <small><em>(maintained by <a href="https://github.com/Onasusweb/">Onasusweb</a>)</em></small></li>
+		<li><a href="https://github.com/icehero/silex-opauth">Silex</a> <small><em>(maintained by <a href="https://github.com/icehero/">icehero</a>)</em></small></li>
+		<li><a href="https://github.com/kahwee/yii-opauth">Yii Framework</a> <small><em>(maintained by <a href="https://github.com/kahwee">kahwee</a>)</em></small></li>
+		<li><a href="https://github.com/lorenzoferrarajr/LfjOpauth">Zend Framework 2</a> <small><em>(maintained by <a href="https://github.com/lorenzoferrarajr">lorenzoferrarajr</a>)</em></small></li>
 	<li>and more to come.</li>
 	</ul>
 </p>
