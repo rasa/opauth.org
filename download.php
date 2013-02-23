@@ -11,7 +11,7 @@
 <h2>Opauth bundled with examples</h2>
 <ul>
 	<li>Comes with the latest Opauth core.</li>
-	<li>Preinstalled with these 3 strategies: <a href="https://github.com/uzyn/opauth-facebook">Facebook</a>, <a href="https://github.com/uzyn/opauth-google">Google</a>, <a href="https://github.com/uzyn/opauth-twitter">Twitter</a></li>
+	<li>Preinstalled with these 3 strategies: <a href="https://github.com/opauth/facebook">Facebook</a>, <a href="https://github.com/opauth/google">Google</a>, <a href="https://github.com/opauth/twitter">Twitter</a></li>
 	<li>Great to get started quickly with Opauth.</li>
 	<li>Don't forget to read the <a href="https://github.com/uzyn/opauth/blob/bundled/README.md">bundled README</a></li>
 </ul>

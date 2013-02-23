@@ -34,9 +34,9 @@
 </tr>
 <tr>
 	<td><img src="images/favicons/facebook.com.png"> <strong>Facebook</strong></td>
-    <td><a href="https://github.com/uzyn/opauth-facebook">uzyn/opauth-facebook</a></td>
+    <td><a href="https://github.com/opauth/facebook">opauth/facebook</a></td>
     <td class="center">
-        <a href="https://github.com/uzyn/opauth-facebook/zipball/master">ZIP</a>
+        <a href="https://github.com/opauth/facebook/zipball/master">ZIP</a>
     </td>
 	<td><a href="auth/facebook" class="tryme">Try me!</a></td>
 </tr>
@@ -58,17 +58,17 @@
 </tr>
 <tr>
 <td><a name="github"></a><img src="images/favicons/github.com.png"> GitHub</td>
-    <td><a href="https://github.com/uzyn/opauth-github">uzyn/opauth-github</a></td>
+    <td><a href="https://github.com/opauth/github">opauth/github</a></td>
     <td class="center">
-        <a href="https://github.com/uzyn/opauth-github/zipball/master">ZIP</a>
+        <a href="https://github.com/opauth/github/zipball/master">ZIP</a>
     </td>
 	<td><a href="auth/github" class="tryme">Try me!</a></td>
 </tr>
 <tr>
 	<td><img src="images/favicons/google.com.png"> <strong>Google</strong></td>
-    <td><a href="https://github.com/uzyn/opauth-google">uzyn/opauth-google</a></td>
+    <td><a href="https://github.com/opauth/google">opauth/google</a></td>
     <td class="center">
-        <a href="https://github.com/uzyn/opauth-google/zipball/master">ZIP</a>
+        <a href="https://github.com/opauth/google/zipball/master">ZIP</a>
     </td>
 	<td><a href="auth/google" class="tryme">Try me!</a></td>
 </tr>
@@ -82,17 +82,17 @@
 </tr>
 <tr>
 	<td><img src="images/favicons/linkedin.com.png"> LinkedIn</td>
-    <td><a href="https://github.com/uzyn/opauth-linkedin">uzyn/opauth-linkedin</a></td>
+    <td><a href="https://github.com/opauth/linkedin">opauth/linkedin</a></td>
     <td class="center">
-        <a href="https://github.com/uzyn/opauth-linkedin/zipball/master">ZIP</a>
+        <a href="https://github.com/opauth/linkedin/zipball/master">ZIP</a>
     </td>
 	<td><a href="auth/linkedin" class="tryme">Try me!</a></td>
 </tr>
 <tr>
 	<td><img src="images/favicons/live.com.png"> (Windows) Live</td>
-    <td><a href="https://github.com/uzyn/opauth-live">uzyn/opauth-live</a></td>
+    <td><a href="https://github.com/opauth/live">opauth/live</a></td>
     <td class="center">
-        <a href="https://github.com/uzyn/opauth-live/zipball/master">ZIP</a>
+        <a href="https://github.com/opauth/live/zipball/master">ZIP</a>
     </td>
 	<td><a href="auth/live" class="tryme">Try me!</a></td>
 </tr>
@@ -106,9 +106,9 @@
 </tr>
 <tr>
 	<td><img src="images/favicons/openid.net.png"> OpenID</td>
-    <td><a href="https://github.com/uzyn/opauth-openid">uzyn/opauth-openid</a></td>
+    <td><a href="https://github.com/opauth/openid">opauth/openid</a></td>
     <td class="center">
-        <a href="https://github.com/uzyn/opauth-openid/zipball/master">ZIP</a>
+        <a href="https://github.com/opauth/openid/zipball/master">ZIP</a>
     </td>
 	<td><a href="auth/openid" class="tryme">Try me!</a></td>
 </tr>
@@ -130,9 +130,9 @@
 </tr>
 <tr>
 	<td><img src="images/favicons/twitter.com.png"> <strong>Twitter</strong></td>
-    <td><a href="https://github.com/uzyn/opauth-twitter">uzyn/opauth-twitter</a></td>
+    <td><a href="https://github.com/opauth/twitter">opauth/twitter</a></td>
     <td class="center">
-        <a href="https://github.com/uzyn/opauth-twitter/zipball/master">ZIP</a>
+        <a href="https://github.com/opauth/twitter/zipball/master">ZIP</a>
     </td>
 	<td><a href="auth/twitter" class="tryme">Try me!</a></td>
 </tr>
