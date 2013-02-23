@@ -157,4 +157,4 @@
 
 <p>Generic strategy: <a href="https://github.com/uzyn/opauth-oauth">OAuth</a></p>
 
-<p>See <a href="https://github.com/uzyn/opauth/wiki/List-of-strategies">wiki's list of strategies</a> for an updated list of Opauth strategies or to make requests.  Also, refer to <a href="https://github.com/uzyn/opauth/wiki/Strategy-contribution-guide">strategy contribution guide</a> if you would like to contribute a strategy.</p>
+<p>See <a href="https://github.com/opauth/opauth/wiki/List-of-strategies">wiki's list of strategies</a> for an updated list of Opauth strategies or to make requests.  Also, refer to <a href="https://github.com/opauth/opauth/wiki/Strategy-contribution-guide">strategy contribution guide</a> if you would like to contribute a strategy.</p>

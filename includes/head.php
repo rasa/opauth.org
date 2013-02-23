@@ -19,7 +19,7 @@
     <div class="wrapper">
       <header>
 		<div style="float: right; margin-top: 5px; right: 0;">
-			<iframe src="http://ghbtns.com/github-btn.html?user=uzyn&repo=opauth&type=watch&count=true"
+			<iframe src="http://ghbtns.com/github-btn.html?user=opauth&repo=opauth&type=watch&count=true"
 			  allowtransparency="true" frameborder="0" scrolling="0" width="110px" height="20px"></iframe>
 		</div>
         <h1><a href="/">Opauth</a></h1>
