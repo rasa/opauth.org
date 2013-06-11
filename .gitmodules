@@ -1,30 +1,30 @@
 [submodule "Opauth/Core"]
 	path = Opauth/Core
-	url = git://github.com/uzyn/opauth.git
+	url = git://github.com/opauth/opauth.git
 [submodule "Opauth/Strategy/Facebook"]
 	path = Opauth/Strategy/Facebook
-	url = git://github.com/uzyn/opauth-facebook.git
+	url = git://github.com/opauth/facebook.git
 [submodule "Opauth/Strategy/Twitter"]
 	path = Opauth/Strategy/Twitter
-	url = git://github.com/uzyn/opauth-twitter.git
+	url = git://github.com/opauth/twitter.git
 [submodule "Opauth/Strategy/Google"]
 	path = Opauth/Strategy/Google
-	url = git://github.com/uzyn/opauth-google.git
+	url = git://github.com/opauth/google.git
 [submodule "Opauth/Strategy/Instagram"]
 	path = Opauth/Strategy/Instagram
 	url = git://github.com/uzyn/opauth-instagram.git
 [submodule "Opauth/Strategy/OpenID"]
 	path = Opauth/Strategy/OpenID
-	url = git://github.com/uzyn/opauth-openid.git
+	url = git://github.com/opauth/openid.git
 [submodule "Opauth/Strategy/LinkedIn"]
 	path = Opauth/Strategy/LinkedIn
-	url = git://github.com/uzyn/opauth-linkedin.git
+	url = git://github.com/opauth/linkedin.git
 [submodule "Opauth/Strategy/GitHub"]
 	path = Opauth/Strategy/GitHub
-	url = git://github.com/uzyn/opauth-github.git
+	url = git://github.com/opauth/github.git
 [submodule "Opauth/Strategy/Live"]
 	path = Opauth/Strategy/Live
-	url = git://github.com/uzyn/opauth-live.git
+	url = git://github.com/opauth/live.git
 [submodule "Opauth/Strategy/Flickr"]
 	path = Opauth/Strategy/Flickr
 	url = git://github.com/uzyn/opauth-flickr.git
