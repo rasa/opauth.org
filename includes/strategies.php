@@ -114,9 +114,9 @@
 </tr>
 <tr>
 	<td><img src="images/favicons/paypal.com.png"> PayPal</td>
-    <td><a href="https://github.com/24hours/opauth-paypal">24hours/opauth-paypal</a></td>
+    <td><a href="https://github.com/rasa/opauth-paypal">rasa/opauth-paypal</a></td>
     <td class="center">
-        <a href="https://github.com/24hours/opauth-paypal/zipball/master">ZIP</a>
+        <a href="https://github.com/rasa/opauth-paypal/zipball/master">ZIP</a>
     </td>
 	<td></td>
 </tr>
